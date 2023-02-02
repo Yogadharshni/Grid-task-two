@@ -1,0 +1,62 @@
+
+.first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+.Maindiv{
+    display: flex;
+    width: 800px;
+  border: 2px solid black;
+  flex-direction: column;
+
+}
+p{
+    font-size: larger;
+}
+.heading{
+  text-align: center;
+}
+.subdiv{
+   
+    margin: 20px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: 
+    "img details";
+}
+.img{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+img{
+   
+    text-align: center;
+    grid-area: img;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.inputs{
+    grid-area: details;
+   font-size: larger;
+}
+label{
+    width: 150px;
+    display: inline-block;
+    margin: 10px;
+}
+button{
+
+        width: 150px;
+        display: inline-block;
+        margin: 10px;
+}
